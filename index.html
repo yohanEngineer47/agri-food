@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Agri-food</title>
-    <link rel="icon" type="image/svg+xml" href="/public/img.icons8.png" />
-    <link rel="stylesheet" href="./dist/output.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agri-food</title>
+  <link rel="icon" type="image/svg+xml" href="/public/img.icons8.png" />
+  <link rel="stylesheet" href="./dist/output.css" />
 </head>
 
-<body>
-  
-  
-  <header class="bg-green-400 flex">
-    <nav class="w-14 flex-none">
-       <img class ="size-12"
+<body class="h-screen w-full overflow-x-hidden">
+  <!-- wrap principal : page en colonne -->
+  <div class="h-screen w-full bg-gray-50 flex flex-col">
 
-            src="./public/menu.png"
+    <!-- HEADER -->
+    <header class="bg-green-400 shrink-0 relative">
+      <nav class="absolute left-3 top-1/2 -translate-y-1/2">
+        <img class="size-12" src="./public/menu.png" alt="menu du navigateur" />
+      </nav>
+      <h1 class="text-lg font-semibold text-center py-4">Agri-food</h1>
+    </header>
 
-            alt="menu du naviguateur">
-         
-     </nav>
-     <div class="grid grid-cols-3">
-       <h1 class="text-6xl font-black">
-          Agri-food
-       </h1>
+    <!-- Zone image (si tu veux qu'elle prenne juste la place nécessaire) -->
+    <div class="shrink-0">
+      <img class="w-full h-100 object-cover block" src="./public/images.jpeg" alt="image de l'agro-alimentaire">
     </div>
-  </header>
-       
-  <main>
-    <div>
-    <div>ici il y aura le sujet 1</div>
-    <div>ici il y aura le sujet 2</div>
-   </div>
-  </main>
 
-  <aside>
-    <div>ici il y  aura le sujet 3</div>
-    <!-- séparation présenter par une ligne -->
-    <div>ici il y aura le sujet 4</div>
-  </aside>
+    <!-- CONTENU : main + aside -->
+    <div class="flex flex-1 min-h-0 w-full flex-col">
+      <main class="flex-1 min-w-0 bg-white">
+        <div class="flex w-full h-full">
+          <div class="flex-1 bg-cyan-400">ici il y aura le sujet 1</div>
+          <div class="flex-1 bg-amber-400">ici il y aura le sujet 2</div>
+        </div>
+      </main>
 
-  
- <footer>
-   <div>
-     ici il y aura les contact
-   </div>
- </footer>
+      <aside class="bg-neutral-300 w-full shrink-0">
+        <div>ici il y aura le sujet 3</div>
+        <div>ici il y aura le sujet 4</div>
+      </aside>
+    </div>
 
+    <!-- FOOTER -->
+    <footer class="bg-neutral-300 shrink-0">
+      <div class="p-2">
+        ici il y aura les contact
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>
+
