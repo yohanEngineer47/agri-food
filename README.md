@@ -25,9 +25,15 @@ L’objectif est de créer une interface claire, moderne et accessible pour part
 
 ```
 agri-food/
+|
 │── index.html
-│── style.css
-│── images/
+│── dist/
+    |── output.css
+│── public/
+|── src/
+    |── input.css
+|── .gitignore
+|── README.md
 ```
 
 * `index.html` : page principale du blog
