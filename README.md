@@ -37,8 +37,9 @@ agri-food/
 ```
 
 * `index.html` : page principale du blog
-* `style.css` : fichier de styles
-* `images/` : dossier contenant les images du site
+* `input.css` : fichier de styles à l'entrée
+* `output.css`: fichier de styles à la sortie
+* `public/` : dossier contenant les éléments du site
 
 ---
 
