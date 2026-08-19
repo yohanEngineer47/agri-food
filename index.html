@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agri-food</title>
-  <link rel="icon" type="image/svg+xml" href="/public/img.icons8.png" />
+  <link rel="icon" type="image/png" href="./img_icons8.png">
   <link rel="stylesheet" href="./dist/output.css" />
 </head>
 
@@ -17,20 +17,30 @@
       <nav class="absolute left-3 top-1/2 -translate-y-1/2">
         <img class="size-12" src="./public/menu.png" alt="menu du navigateur" />
       </nav>
-      <h1 class="text-lg font-semibold text-center py-4">Agri-food</h1>
+      <h1 class="text-5xl font-semibold text-center py-4">Agri-food</h1>
     </header>
 
     <!-- Zone image (si tu veux qu'elle prenne juste la place nécessaire) -->
     <div class="shrink-0">
-      <img class="w-full h-100 object-cover block" src="./public/images.jpeg" alt="image de l'agro-alimentaire">
+      <img class="w-full h-100 object-cover block" src="./public/im_vitrine.jpg" alt="image de l'agro-alimentaire">
     </div>
 
     <!-- CONTENU : main + aside -->
     <div class="flex flex-1 min-h-0 w-full flex-col">
       <main class="flex-1 min-w-0 bg-white">
         <div class="flex w-full h-full">
-          <div class="flex-1 bg-cyan-400">ici il y aura le sujet 1</div>
-          <div class="flex-1 bg-amber-400">ici il y aura le sujet 2</div>
+          <div class="flex-1 bg-cyan-400 text-center flex flex-col items-center justify-center">
+            <h1 class="text-5xl">Valeur nutritionelle</h1>
+            <hr class="w-1/2 mx-auto my-4 border-black-300">
+            <p class="text-2xl">Un aperçu des bienfaits nutritionnels, mesurés et expliqués</p>
+          </div>
+
+          <div class="flex-1 bg-amber-400 text-center flex flex-col items-center justify-center">
+            <h1 class="text-5xl">Ingrédient</h1>
+            <hr class="w-1/2 mx-auto my-4 border-black-300">
+            <p class="text-2xl">Chaque ingrédient a un rôle : goût, texture, conservation et valeur nutritionnelle</p>
+            <p class="text-2xl">(odre, additifs, fréquence)</p>
+          </div>
         </div>
       </main>
 
