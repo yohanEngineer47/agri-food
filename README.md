@@ -31,6 +31,10 @@ agri-food/
     |── output.css
 │── public/
 |── src/
+    |── exp1.html
+    |── expi2.html
+    |── exp3.html
+    |── exp4.html
     |── input.css
 |── .gitignore
 |── README.md
@@ -83,8 +87,8 @@ Ce projet a pour but de :
 
 ## 👤 Auteur
 
-Projet réalisé par : *[yohanEngineer47]*
+Projet réalisé par : *yohanEngineer47*
 
-# Agri-food
+
 
 
