@@ -44,7 +44,10 @@ agri-food/
 * `input.css` : fichier de styles à l'entrée
 * `output.css`: fichier de styles à la sortie
 * `public/` : dossier contenant les éléments du site
-
+* `exp1.html` : page du sujet 1
+* `expi2.html` : page du sujet 2
+* `exp3.html` : page du sujet 3
+* `exp4.html` : page du sujet 4
 ---
 
 ## 🎨 Fonctionnalités
